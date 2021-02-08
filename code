@@ -1,0 +1,30 @@
+# -*- coding: utf8 -*-
+import random
+
+# titre du jeu
+
+print("\t\t\t=== LES ROYAUMES OUBLIÉS ===\n\n")
+
+# liste directions
+
+direction = ("Gauche", "Droite", "Devant")
+
+
+#fontion random numb
+
+def get_random_numb(object_list): 
+	random_dir = random.shuffle(object_list) #(0, len(object_list) - 1)
+	return object_list[random_dir]
+
+
+print(get_random_numb(direction))
+
+# associer le nombre a un objet dans une liste et l'afficher dans  une phrase
+
+
+#demander au joueur de choisir sa direction
+
+#description du nouvel environnement
+
+#nouvelle direction à choisir
+
